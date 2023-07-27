@@ -44,6 +44,10 @@
 }
 
 @media screen and (max-width: 450px){
+
+    .header{
+        align-items: center;
+    }
     .header_search{
         padding: 10px;
         padding-right: 30px;
@@ -52,7 +56,7 @@
         border-radius: 5px;
         height: 20px;
         color: gray;
-        width: 150px;
+        width: 100px;
         background-color: #eef3f8;
     }
 
@@ -60,6 +64,10 @@
         object-fit: contain;
         height: 38px;
         margin-right: 10px;
+    }
+    h6{
+        font-size: 8px;
+        white-space: nowrap;
     }
 }
 
